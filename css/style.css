@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+}
+
+button {
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
