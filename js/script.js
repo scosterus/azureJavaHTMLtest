@@ -1,6 +1,6 @@
 function fetchFromJava(){
 
-    fetch("http://localhost:8082/eerste")
+    fetch("https://azure-test-java.azurewebsites.net/eerste")
     .then((data)=>{
         console.log(data);
         return data.json()})
